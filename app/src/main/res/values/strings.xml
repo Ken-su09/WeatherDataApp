@@ -6,4 +6,5 @@
     <string name="loading_first_message">We are downloading data…</string>
     <string name="loading_second_message">It is almost done…</string>
     <string name="loading_third_message">Only a few seconds left before having the result…</string>
+    <string name="restart">Restart</string>
 </resources>
