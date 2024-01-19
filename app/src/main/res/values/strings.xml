@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">WeatherDataApp</string>
+    <string name="welcome_text">Welcome to Weather Data App</string>
+    <string name="next">Next</string>
+
+    <string name="loading_first_message">We are downloading data…</string>
+    <string name="loading_second_message">It is almost done…</string>
+    <string name="loading_third_message">Only a few seconds left before having the result…</string>
 </resources>
