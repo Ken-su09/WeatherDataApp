@@ -37,12 +37,7 @@ class WeatherRepositoryImpl @Inject constructor(private val weatherApiService: W
             )
         } else {
             WeatherData(
-                id = 0,
-                city = "",
-                country = "",
-                temperature = 0,
-                skyType = "",
-                weatherIcon = ""
+                id = 0, city = "", country = "", temperature = 0, skyType = "", weatherIcon = ""
             )
         }
 
@@ -52,4 +47,10 @@ class WeatherRepositoryImpl @Inject constructor(private val weatherApiService: W
     }
 
     override fun getWeatherDataList(): Flow<List<WeatherData>> = weatherDataListFlow
+
+    override fun clearData() {
+        weatherDataListFlow.update {
+            emptyList()
+        }
+    }
 }

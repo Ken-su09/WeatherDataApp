@@ -9,4 +9,6 @@ interface WeatherRepository {
     suspend fun setWeatherDataList(lat: String, long: String)
 
     fun getWeatherDataList(): Flow<List<WeatherData>>
+
+    fun clearData()
 }
