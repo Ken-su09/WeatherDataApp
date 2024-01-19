@@ -1,10 +1,19 @@
 <resources>
     <string name="app_name">WeatherDataApp</string>
-    <string name="welcome_text">Bienvenue Weather Data App</string>
+    <string name="welcome_text">Bienvenue dans Weather Data App</string>
     <string name="next">Suivant</string>
 
-    <string name="loading_first_message">Nous téléchargeons les données…</string>
-    <string name="loading_second_message">C’est presque fini…</string>
-    <string name="loading_third_message">Plus que quelques secondes avant d’avoir le résultat…</string>
+    <string-array name="messages_array">
+        <item>Nous téléchargeons les données…</item>
+        <item>C’est presque fini…</item>
+        <item>Plus que quelques secondes avant d’avoir le résultat…</item>
+    </string-array>
+
+    <string name="final_message">Le téléchargement est fini ! Regardez la météo</string>
+
     <string name="restart">Redémarrer</string>
+
+    <string name="weather_location">%1$s, %2$s</string>
+    <string name="temperature_with_arg">%1d$°C</string>
+    <string name="seekbar_progress_with_arg">%1d %%</string>
 </resources>

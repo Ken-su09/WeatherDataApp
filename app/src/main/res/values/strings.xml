@@ -3,8 +3,17 @@
     <string name="welcome_text">Welcome to Weather Data App</string>
     <string name="next">Next</string>
 
-    <string name="loading_first_message">We are downloading data…</string>
-    <string name="loading_second_message">It is almost done…</string>
-    <string name="loading_third_message">Only a few seconds left before having the result…</string>
+    <string-array name="messages_array">
+        <item>We are downloading data…</item>
+        <item>It is almost done…</item>
+        <item>Only a few seconds left before having the result…</item>
+    </string-array>
+
+    <string name="final_message">Downloading is done ! Check the weather</string>
+
     <string name="restart">Restart</string>
+
+    <string name="weather_location">%1$s, %2$s</string>
+    <string name="temperature_with_arg">%1$d°C</string>
+    <string name="seekbar_progress_with_arg">%1d %%</string>
 </resources>
